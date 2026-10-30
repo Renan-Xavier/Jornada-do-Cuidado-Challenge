@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BA3D8F0-2443-A334-884B-86A82F1773ED" name="Recompensas_Desbloqueadas">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>027C70A7-9A89-FEC3-B907-677B571121EC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Paciente" id="837F16AE-F06B-26B6-DF91-72EC7E90EE52">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>4D7D2C41-17BF-C401-050C-39BDA71AA074</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4227281E-295B-667E-AC66-F2FDF8B5DEAE" referredColumn="E8C674B1-9D62-4636-7D2C-8853DD63D4C0"/>
+</associations>
+</Column>
+<Column name="ID_Recompensa" id="50F783B3-AE60-1E47-1343-C4E6ADA1C017">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>A7F17570-7CD3-65D2-7416-C7CB49A976D8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D7DA4AF-F89F-F2C1-FB7F-E9439B447349" referredColumn="6F2C3A4E-21D7-958E-F74C-925F5FAEE599"/>
+</associations>
+</Column>
+<Column name="Data_Desbloqueio" id="9948607A-4AE4-01AF-77A8-E00EA9875D75">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>3FDC56AA-014C-92DC-BF36-739CB3D096DC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D953EB4E-B57D-D6A7-2854-306AFA4197FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4B29874-26EF-2B51-475F-833422B3D8C6" name="Recompensas_Desbloqueadas_PK">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>9ADFFE16-3A09-162B-7115-2AB68E02EBFC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837F16AE-F06B-26B6-DF91-72EC7E90EE52"/>
+<colUsage columnID="50F783B3-AE60-1E47-1343-C4E6ADA1C017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41594E34-48C5-335F-B99A-0FA2BD4AEC5D" name="fk_Recompensas_Paciente">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837F16AE-F06B-26B6-DF91-72EC7E90EE52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67F82F37-5AC3-1FCE-8F3E-59BFA85C9D0B" name="fk_Recompensas_Recompensa">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F783B3-AE60-1E47-1343-C4E6ADA1C017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

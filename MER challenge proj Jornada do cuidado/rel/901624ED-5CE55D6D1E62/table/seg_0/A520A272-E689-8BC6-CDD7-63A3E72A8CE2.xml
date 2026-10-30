@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A520A272-E689-8BC6-CDD7-63A3E72A8CE2" name="Clinica">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>7B5A7B56-6111-7F39-5051-8349D2B4C579</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Clinica" id="A6EA2AF9-DB5C-C79C-7FE9-F26BFB1FC5D3">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>90FF76A4-EF40-5228-318D-A9D12D8F5885</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="Nome" id="A5DDB1A6-AE03-2E6F-EBC4-6B5281FA88D3">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>67CEBFA7-DD2C-D47E-0026-56616688BAAD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63DA3E7F-F533-D591-5661-3BA8C518B0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="5455D348-CEFE-6C24-8106-555798BB9615">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>E4DF722B-982A-069C-6EFD-9D2735B234A3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F09824E-F979-969B-0866-478E5232F165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Latitude" id="8BCD4091-7676-D4C0-972C-80581FBDBDCD">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>1A8356BC-3E9B-EEDC-F37D-5E323CB3F87A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>451D5C69-E211-F95D-969F-337332783B4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Longitude" id="71D83112-EFB1-3777-3269-830D7F8AF3D8">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>930EC93E-CC80-9165-B369-2D16DF9B8DDC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>451D5C69-E211-F95D-969F-337332783B4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20E7B49E-AD42-FD28-E7D2-ECF2460850DB" name="Clinica_PK">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>F9656DA6-1DAA-E68C-5C2C-82F678303724</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6EA2AF9-DB5C-C79C-7FE9-F26BFB1FC5D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

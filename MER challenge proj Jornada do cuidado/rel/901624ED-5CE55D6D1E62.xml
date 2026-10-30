@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="mer2" id="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" mainViewID="A94AAEAC-A6D8-DFC6-794B-C2B00077689D">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:50:54 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>mer2.sql</fileName>
+<pathName>C:\Users\Surprise\Desktop\ADS FIAP</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

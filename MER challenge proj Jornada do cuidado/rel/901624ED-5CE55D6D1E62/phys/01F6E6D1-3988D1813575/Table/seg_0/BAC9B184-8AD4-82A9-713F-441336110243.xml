@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Log_Notificacao" directorySegmentName="seg_0" id="BAC9B184-8AD4-82A9-713F-441336110243">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Mensagem" id="069D8291-5853-308A-EC3B-BA066B638ED4">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Paciente" id="9247EE7C-A947-F6CD-4C61-2BCB412E3D90">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Canal" id="9C0E8174-1F32-D1C9-8155-BFBB00838FF7">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Status_Leitura" id="B5D2EE79-8A88-BF06-886C-F1277FC35F62">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="Data_Envio" id="D9EBE2A7-AA92-71A8-102A-24582E2EE31D">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_Log" id="FE3771A0-F749-55A5-FF7B-671B19714A32">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_Log_Paciente" id="81B54F16-EA68-C9F3-E95E-6C029C9EBE43">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Log_Notificacao_PK" id="37734979-BEE0-102E-7D56-C882698F401F">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="chk_Status_Leitura" id="64F989DE-4346-AB9E-935D-CDDF12417FFA">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

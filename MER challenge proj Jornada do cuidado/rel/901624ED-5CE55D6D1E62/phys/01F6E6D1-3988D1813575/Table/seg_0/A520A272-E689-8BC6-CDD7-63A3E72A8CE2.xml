@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Clinica" directorySegmentName="seg_0" id="A520A272-E689-8BC6-CDD7-63A3E72A8CE2">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Endereco" id="5455D348-CEFE-6C24-8106-555798BB9615">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Longitude" id="71D83112-EFB1-3777-3269-830D7F8AF3D8">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Latitude" id="8BCD4091-7676-D4C0-972C-80581FBDBDCD">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nome" id="A5DDB1A6-AE03-2E6F-EBC4-6B5281FA88D3">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Clinica" id="A6EA2AF9-DB5C-C79C-7FE9-F26BFB1FC5D3">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Clinica_PK" id="20E7B49E-AD42-FD28-E7D2-ECF2460850DB">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

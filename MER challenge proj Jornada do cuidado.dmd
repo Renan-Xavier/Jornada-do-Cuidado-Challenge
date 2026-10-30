@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER challenge proj Jornada do cuidado" id="2BCDD6BE-2E3F-6761-C37A-D27EF5CEEA4A" version="3.5">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:43:11 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BCDD6BE-2E3F-6761-C37A-D27EF5CEEA4A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E925D8F3-E079-527D-9556-E1586B64FC9D">
+<designStoragePath>C:\mer2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

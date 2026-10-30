@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D6B46B0-2648-F979-DA39-A304314C3C77" name="Consulta">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>092AB674-AFFC-2401-C2AF-283E743EBDE7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Consulta" id="D0B91EAD-7E7C-9778-CCA0-8B6A58955C83">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>35722B16-71F3-321C-13FB-92DEF44533D4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_Paciente" id="45ABED0E-2C34-24D6-5B1A-76015AA6AF69">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>C9F47527-CF7F-0943-4ED8-F88E3B6BB356</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF2C4FDE-2282-6C8B-1CC4-E0ABC7EA05B9" referredColumn="E8C674B1-9D62-4636-7D2C-8853DD63D4C0"/>
+</associations>
+</Column>
+<Column name="ID_Clinica" id="757CA677-5A9A-CDBD-564C-64B83456FE71">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>BC747F79-1C61-8E36-119B-E64BAA48EF2A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D96C2B6-1773-85F4-37EE-852E278C3190" referredColumn="A6EA2AF9-DB5C-C79C-7FE9-F26BFB1FC5D3"/>
+</associations>
+</Column>
+<Column name="Especialidade" id="E6C22EA3-7B6F-2B74-E6B7-6D3913012319">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>7E4748ED-147C-4886-E161-5ADBF3608BDF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>418F94D3-FADB-BFA0-2019-47AC2E4AE1CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Hora" id="F660CDBA-A387-65A0-8E2A-0655682342A4">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>DBBBB03C-BA47-28F4-75EC-B59674529CF3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>9B5F3B6B-31EE-D10D-14F4-B797B7B482D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="3790A38B-F92B-2A9A-9995-A33C141E24E0">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>B0AC3741-2F8A-C9A0-D217-ACB5A74383E2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2F5AB2-F955-B820-4F96-A9ED9C2E9760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11D2A032-2707-65EA-E5CF-5569B9A1A63E" name="Consulta_PK">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>EF5C7DFA-52DD-B24B-CC28-A88E7A6B571C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B91EAD-7E7C-9778-CCA0-8B6A58955C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88CCBDDC-5FFE-6DA7-FDEE-12CAE235F846" name="fk_Consulta_Clinica">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="757CA677-5A9A-CDBD-564C-64B83456FE71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C48C7238-EB04-5C13-FBD0-A341061E33D3" name="fk_Consulta_Paciente">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45ABED0E-2C34-24D6-5B1A-76015AA6AF69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_Status_Consulta" directorySegmentName="seg_0" id="41DDB58F-A331-0231-F6B4-B72EA17CB528">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>57865676-06D5-BDA3-B285-6DE4106BC07E</importedID>
+<rule><![CDATA[Status IN ('Agendada', 'Realizada', 'Cancelada', 'No-show')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B211E390-6152-EBE1-D603-5F32709FC276" name="Paciente">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>A6AE2F60-C43D-56D6-EADF-5424F2732946</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Paciente" id="E8C674B1-9D62-4636-7D2C-8853DD63D4C0">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>C5AE6D13-6466-B773-6640-20F78542AC05</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="Nome" id="F64BF9E2-CB7B-FE68-7C75-8702C8AC31FE">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>A2DEF108-EB5C-067D-C823-AA1BEB26AF05</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63DA3E7F-F533-D591-5661-3BA8C518B0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Google" id="781C78BD-D2B3-59E8-1517-C8808B0F20E4">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>9E155C8A-F6F7-0E2A-CF16-5EF20C1CD7BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63DA3E7F-F533-D591-5661-3BA8C518B0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="A5E81CBD-E3CF-50F5-E2BA-9BCD041D1687">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>D451175B-1305-59D9-BD67-342C422705D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2F5AB2-F955-B820-4F96-A9ED9C2E9760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FD7D1AE-5E2C-B824-B945-EBCDC90852CF" name="Paciente_PK">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>73E17644-AA32-E01F-98EB-01E049E4D7F9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C674B1-9D62-4636-7D2C-8853DD63D4C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A5CF10D-97FE-8A81-0FCC-DD4783B6D25F" name="INDEX_1">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>6FD98615-A182-435A-6BA6-1249E6EE796E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="781C78BD-D2B3-59E8-1517-C8808B0F20E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

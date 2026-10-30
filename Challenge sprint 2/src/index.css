@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode - Root */
+html.dark {
+  background: #000000 !important;
+  color: #f3f4f6 !important;
+}
+
+html.dark body {
+  background: #000000 !important;
+  color: #f3f4f6 !important;
+}
+
+/* Dark mode - All elements */
+html.dark * {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode - Background: white -> black */
+html.dark .bg-white {
+  background-color: #000000 !important;
+}
+
+/* Dark mode - Background: light blue -> dark gray */
+html.dark .bg-blue-100 {
+  background-color: #111111 !important;
+}
+
+/* Dark mode - Background: grays */
+html.dark .bg-gray-50 { background-color: #0a0a0a !important; }
+html.dark .bg-gray-100 { background-color: #111111 !important; }
+html.dark .bg-gray-200 { background-color: #1f1f1f !important; }
+html.dark .bg-gray-300 { background-color: #2d2d2d !important; }
+
+/* Dark mode - Text: dark gray to light */
+html.dark .text-gray-800 { color: #f3f4f6 !important; }
+html.dark .text-gray-700 { color: #e5e7eb !important; }
+html.dark .text-gray-600 { color: #d1d5db !important; }
+html.dark .text-gray-500 { color: #9ca3af !important; }
+html.dark .text-white { color: #f3f4f6 !important; }
+
+/* Dark mode - Headings */
+html.dark h1,
+html.dark h2,
+html.dark h3 { color: #f3f4f6 !important; }
+
+html.dark p { color: #d1d5db !important; }
+
+/* Dark mode - Borders */
+html.dark .border-gray-100 { border-color: #2d2d2d !important; }
+html.dark .border-gray-200 { border-color: #3d3d3d !important; }
+html.dark .border-gray-300 { border-color: #4d4d4d !important; }
+html.dark .border-blue-100 { border-color: #2d3d4d !important; }

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FC72769-D9DD-696D-1762-FD3B3009E872" name="Paciente">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>B211E390-6152-EBE1-D603-5F32709FC276</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Paciente" id="A7F90AC7-D48C-BA10-984E-D56A11717F28">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>E8C674B1-9D62-4636-7D2C-8853DD63D4C0</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="1A946BB8-A0FB-C041-5026-EEB818F400A0">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>F64BF9E2-CB7B-FE68-7C75-8702C8AC31FE</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63DA3E7F-F533-D591-5661-3BA8C518B0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email Google" id="A5DCB5F9-378C-F849-CD0A-D744A05327F3">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>781C78BD-D2B3-59E8-1517-C8808B0F20E4</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63DA3E7F-F533-D591-5661-3BA8C518B0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="39514D83-5B6A-9B93-15EB-30300498AE72">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>A5E81CBD-E3CF-50F5-E2BA-9BCD041D1687</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2F5AB2-F955-B820-4F96-A9ED9C2E9760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76B3BD15-0AF6-FFE1-06E9-AC6FF33CEA11" name="Paciente PK">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>4FD7D1AE-5E2C-B824-B945-EBCDC90852CF</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7F90AC7-D48C-BA10-984E-D56A11717F28</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C566CACE-871E-9FBB-73F0-9C60BCE84ADB" name="INDEX 1">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>8A5CF10D-97FE-8A81-0FCC-DD4783B6D25F</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>A5DCB5F9-378C-F849-CD0A-D744A05327F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B0294DB-1062-B4EF-4374-55639BE2EFC1" name="Recompensa">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>11BAE8C5-77D7-8E7A-47BF-572F835A13FA</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Recompensa" id="4466E0EE-43BB-8364-524F-1484C60D7826">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>6F2C3A4E-21D7-958E-F74C-925F5FAEE599</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="704A4EA3-66C8-BCB1-F8A6-6846E64DF642">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>1592266F-4A33-7DA6-4913-F1B04FEAE9F0</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F09824E-F979-969B-0866-478E5232F165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pontos Necessarios" id="E6A3041D-A028-8F23-783F-D6419DE3179C">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>FC1DAC59-83C0-E9FF-F96D-A31DC1C6A704</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ACA30522-566F-0DCD-14B7-6D3B8E38D9CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="5717AAA7-E7BD-D2EA-AA44-CF056EB6FAA2">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>119B7D42-0DF3-BBF7-A660-FAC38FD214EB</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2F5AB2-F955-B820-4F96-A9ED9C2E9760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3A81F0F-C822-6DCA-D395-350E8583886A" name="Recompensa PK">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>2666F8E0-17B9-087A-AE97-D407C8C07E01</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4466E0EE-43BB-8364-524F-1484C60D7826</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="97ACAAA3-C32E-C4A0-FC1F-6D92CF5EA4BD" mainViewID="C3C100B7-BC26-03EF-3DAB-6C1995A189D6">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:43:11 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

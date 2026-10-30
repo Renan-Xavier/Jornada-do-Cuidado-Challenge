@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D96C2B6-1773-85F4-37EE-852E278C3190" containerWithKeyObject="9D6B46B0-2648-F979-DA39-A304314C3C77" localFKIndex="88CCBDDC-5FFE-6DA7-FDEE-12CAE235F846" name="fk_Consulta_Clinica">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>95FA47F8-089C-F586-17F4-FFED19779464</importedID>
+<referredTableLongName>Clinica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A520A272-E689-8BC6-CDD7-63A3E72A8CE2</referredTableID>
+<keyObject>20E7B49E-AD42-FD28-E7D2-ECF2460850DB</keyObject>
+<referredKeyID>20E7B49E-AD42-FD28-E7D2-ECF2460850DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Clinica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

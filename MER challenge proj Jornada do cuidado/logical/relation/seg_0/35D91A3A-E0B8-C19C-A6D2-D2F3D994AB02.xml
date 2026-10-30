@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_Consulta_Clinica" directorySegmentName="seg_0" id="35D91A3A-E0B8-C19C-A6D2-D2F3D994AB02">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>5D96C2B6-1773-85F4-37EE-852E278C3190</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<sourcePk>7A4FB7EF-6C8E-357A-D81A-26AC83389EFE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD0D6B7F-66A3-AF37-9297-AC945C7D33AD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CCADE03-A2CF-3471-4E03-DBEA0CA50759</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

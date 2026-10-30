@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7D7DA4AF-F89F-F2C1-FB7F-E9439B447349" containerWithKeyObject="4BA3D8F0-2443-A334-884B-86A82F1773ED" localFKIndex="67F82F37-5AC3-1FCE-8F3E-59BFA85C9D0B" name="fk_Recompensas_Recompensa">
+<sourceDDLFile>mer2.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:51:17 UTC</createdTime>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<importedID>D7649B9E-1C28-04B7-A284-0A755D548F46</importedID>
+<referredTableLongName>Recompensa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11BAE8C5-77D7-8E7A-47BF-572F835A13FA</referredTableID>
+<keyObject>2666F8E0-17B9-087A-AE97-D407C8C07E01</keyObject>
+<referredKeyID>2666F8E0-17B9-087A-AE97-D407C8C07E01</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Recompensa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

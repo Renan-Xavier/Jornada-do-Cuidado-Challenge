@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_Recompensas_Recompensa" directorySegmentName="seg_0" id="E22C9A74-D313-26F6-EC1F-C76F2362830A">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-10-28 03:54:17 UTC</createdTime>
+<generatorID>7D7DA4AF-F89F-F2C1-FB7F-E9439B447349</generatorID>
+<ownerDesignName>MER challenge proj Jornada do cuidado</ownerDesignName>
+<engineerTo>
+<item key="901624ED-F9D5-BCA9-6B19-5CE55D6D1E62" value="true"/>
+</engineerTo>
+<sourcePk>E3A81F0F-C822-6DCA-D395-350E8583886A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B0294DB-1062-B4EF-4374-55639BE2EFC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55A36723-A023-50DA-372D-91703CF38A38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

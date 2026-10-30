@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue background -->
+  <rect width="200" height="200" fill="#0066CC"/>
+  
+  <!-- Text "Care" -->
+  <text x="100" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Care</text>
+  
+  <!-- Text "Plus" -->
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Plus</text>
+  
+  <!-- Heartbeat line -->
+  <polyline points="30,125 45,125 50,115 55,125 65,125 70,105 75,145 85,125 95,125 105,115 115,125 125,125 130,115 140,125 150,125 160,120 170,125" 
+            stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
